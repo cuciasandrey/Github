@@ -16,7 +16,7 @@ class ResourcePage extends Page{
 
     waitForResourcePageToLoad () {
         if(!this.player.isDisplayed()){
-          this.buttomShortCuts.waitForDisplayed(3000);
+          this.player.waitForDisplayed(3000);
         }
       }
 
